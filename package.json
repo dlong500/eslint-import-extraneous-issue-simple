@@ -1,0 +1,19 @@
+{
+  "name": "test1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/app/base.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Davison Long <dlong@nextgentech.net> (https://nextgentech.net)",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^6.8.0",
+    "eslint-import-resolver-node": "^0.3.3",
+    "eslint-plugin-import": "^2.18.2",
+    "left-pad": "^1.3.0"
+  }
+}
