@@ -1,4 +1,7 @@
+### 2020-02-10 ###
 ### This is a repo with a bare minimum of configuration to demonstrate the different behavior of eslint-plugin-import versions
+### *problem only occurs on Windows* ###
+#### likely issue: https://github.com/benmosher/eslint-plugin-import/issues/1643 ####
 
 ## results w/ eslint-plugin-import v2.20.1
 ```
@@ -11,7 +14,7 @@ C:\local\code\eslint-import-extraneous-issue-simple\src\app\base.js
 ✖ 2 problems (2 errors, 0 warnings)
 ```
 
-## results w/ eslint-plugin-import v2.18.2
+## results w/ eslint-plugin-import v2.18.2 or 2.20.1
 ```
 $ eslint src/app/base.js
 
